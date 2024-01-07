@@ -5,29 +5,46 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
-    color:#FD6E0A;
+    color:#77fd0a;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #edebea;
+    border: 0;
+    color: brown;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px 20px;
 }
 /*nav related styles*/
 
 nav{
     display: flex; 
+   /* justify-content: space-between;*/
+   align-items: center;
 }
 .nav-title {
     color:#1ad344;
-    font-family: 'Open Sans';
-    font-size: 45px;
-    font-size:normal;
+    font: size 100px;;
     font-weight:800;
     }
 nav > ul{
    display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 nav li{
     list-style: none;
-    margin-right:50px;
+    margin-right:40px;
+    align-items: center;
 }
 nav a{
     text-decoration:none;
-    color:#341111;
+    color:beige;
 }
+.header{
+background-color:#b55414;
+}
+
