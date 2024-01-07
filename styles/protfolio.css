@@ -1,50 +1,194 @@
 /*common sheard styles*/
 body{
-   color:black;
+    color:#000000;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
-}
-.text-primary{
-    color:#77fd0a;
-}
-.btn-primary{
-    border-radius: 5px;
-    background: #edebea;
-    border: 0;
-    color: brown;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    padding: 5px 20px;
-}
-/*nav related styles*/
-
-nav{
-    display: flex; 
-   /* justify-content: space-between;*/
-   align-items: center;
-}
-.nav-title {
-    color:#1ad344;
-    font: size 100px;;
-    font-weight:800;
-    }
-nav > ul{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-nav li{
-    list-style: none;
-    margin-right:40px;
+    background-color:#e3ebed;
+ }
+ 
+ .header{
+ padding:20px;
+ background-color:#cccccc;
+ }
+ 
+ .header h3{
+     padding:0;
+     margin:0;	
+ }
+ 
+ 
+ .text-primary{
+     color:#2c743d;
+ }
+ 
+ .btn-primary{
+     border-radius: 5px;
+     background: #2c743d;
+     border: 0;
+     color: #ffffff;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     padding: 5px 20px;
+      
+ }
+ .section-title{
+     color: #181818;
+     text-align: center;
+     font-size: 30px;
+     font-weight: 800;
+     padding:0;
+     margin:0 0 20px 0;
+ 
+ }
+ .section-description{
+     padding: 0 50px 0 50px;
+     margin: 20px 40px 0 40px;
+     text-align:center;
+ }
+ 
+ /*nav related styles*/
+ 
+ nav{
+     display: flex;
+    /* justify-content: space-between;*/
     align-items: center;
-}
-nav a{
-    text-decoration:none;
-    color:beige;
-}
-.header{
-background-color:#b55414;
-}
-
+ }
+ 
+ .nav-title {
+     color:#cb4d00;
+     font-size: 60px;
+ }
+     
+ nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ 
+ nav li{
+     list-style: none;
+     margin-right:40px;
+     align-items: center;
+ }
+ 
+ nav a{
+     text-decoration:none;
+     color:#ff00ff;
+ }
+ 
+ .banner{
+     padding: 30px 30px 0px 150px ;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .banner{
+     width:50px;
+ }
+ 
+ .protfolio-pic{
+     height: 200px;
+     width: 200px;
+ }
+ 
+ .banner-greeting{
+     font-size: 30px;
+     margin: 0;
+     text-align:center;
+ }
+ 
+ .banner-title{
+     font-size: 15px;
+     font-weight: 700;
+     margin-top: 0px;
+     margin-bottom: 20px;
+ }
+ 
+ /*main section styles*/
+ main{
+     max-width: 140;
+     margin: 0;
+ }
+ 
+ 
+ /*about sectin style*/
+ .about-container{
+     margin:20px 0;
+     padding:40px;
+     background: #cccccc;
+ }
+ 
+ .about-sub-con{
+     display:flex;
+     margin:0 50px;
+ }
+ 
+ .about{
+         padding: 30px;
+         border-radius:10px;
+         background: #b55414;
+         margin:0 50px;
+ }
+ 
+ .profile-section{
+     display: flex;
+     padding: 20px;
+ }
+ 
+ .about-me{
+     margin:50px;
+ }
+ 
+ .picture-container{
+     margin: 50px 150px 0 150px;
+ }
+ 
+ 
+ .about-info-container{
+     display: flax;
+     justify-content: space-around;
+     background-color:#cccccc;
+     padding:10px;
+ }
+ 
+ .about-info{
+     display: flex;
+     margin:10px;
+ }
+ 
+ #what-i-do-description{
+     padding: 20px 30px;
+ }
+ 
+ .about-info-container h3{
+     text-align:center;
+     padding-top: 40px;
+     margin:0;
+ }
+ 
+ .info-title{
+     padding:0;
+     margin:0;
+ }
+ 
+ .about-info-sub-container{
+     padding:0 50px;
+     margin:0 50px;
+ }
+ 
+ .skill-containter{
+     color:#ffffff;
+ }
+ 
+ .copyright{
+     background:#cccccc;
+     margin:20px 0px;
+     padding:10px;
+ }
+ 
+ .copyright p{
+     text-align:center;
+ }
+ 
